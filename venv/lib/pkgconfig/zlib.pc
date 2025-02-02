@@ -1,0 +1,13 @@
+prefix=/Users/punlochan/newproject/newproject/venv
+exec_prefix=/Users/punlochan/newproject/newproject/venv
+libdir=/Users/punlochan/newproject/newproject/venv/lib
+sharedlibdir=/Users/punlochan/newproject/newproject/venv/lib
+includedir=/Users/punlochan/newproject/newproject/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
